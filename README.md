@@ -77,5 +77,10 @@ fun initializeConfig() {
     val node = loader.load()
 
     val myPluginConfig = MyPluginConfig(NodeConfigAdapter(node))
+    
+    print(myPluginConfig.joinMessage)
+    for (module in myPluginConfig.enabledModules) {
+       // enable them
+    }
 }
 ```
