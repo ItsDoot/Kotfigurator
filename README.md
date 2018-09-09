@@ -1,6 +1,6 @@
 # Kotfigurator
 
-A Kotlin library for easily mapping configurate values to class fields.
+A Kotlin library for easily mapping [configurate](https://github.com/SpongePowered/configurate) values to class fields.
 
 **NOTE:** Comments only work when the configuration format itself supports comments.
 
