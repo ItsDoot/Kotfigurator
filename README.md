@@ -43,6 +43,18 @@ dependencies {
 
 ## Example
 
+#### Supported Data Types:
+    
+    - `String`
+    - `Boolean`
+    - `Int`
+    - `Long`
+    - `Float`
+    - `Double`
+    - Any type with an associated TypeSerializer
+    - `List`s of the aforementioned types
+    - `Map`s of the aforementioned types
+
 ```kotlin
 class MyPluginConfig(adapter: ConfigAdapter) {
 
